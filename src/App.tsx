@@ -1,4 +1,5 @@
 import { ChakraProvider } from '@chakra-ui/react';
+import { AuthProvider } from 'components/Auth/AuthProvider';
 import React from 'react';
 import {
     RouterProvider,
@@ -10,8 +11,8 @@ import { router } from './router';
 
 
 export const App = () =>
-(<React.StrictMode>
-    <ChakraProvider resetCSS>
+(<ChakraProvider resetCSS>
+    <AuthProvider>
         <RouterProvider router={router} />
-    </ChakraProvider>
-</React.StrictMode>)
+    </AuthProvider>
+</ChakraProvider>)

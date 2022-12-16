@@ -6,7 +6,7 @@
             "ESNext",
             "dom"
         ],
-        "jsx": "react",
+        "jsx": "react-jsx",
         "noEmit": true,
         "sourceMap": true,
         /* Strict Type-Checking Options */
@@ -19,6 +19,9 @@
         "esModuleInterop": true,
         "baseUrl": ".",
         "paths": {
+            "common/*": [
+                "src/common/*"
+            ],
             "components/*": [
                 "src/components/*"
             ],

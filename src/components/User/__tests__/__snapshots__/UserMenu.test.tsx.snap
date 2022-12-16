@@ -1,0 +1,362 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User Menu should render correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body
+    class="chakra-ui-light"
+  >
+    <div>
+      <div
+        class="chakra-stack css-84zodg"
+      >
+        <div
+          class="chakra-skeleton css-dfic0d"
+        >
+          <span
+            class="chakra-avatar css-170e8sn"
+            data-testid="user-avatar"
+          >
+            <div
+              aria-label="bcariaga"
+              class="chakra-avatar__initials css-1pd2iu3"
+              role="img"
+            >
+              b
+            </div>
+          </span>
+        </div>
+        <div
+          class="css-0"
+        >
+          <button
+            aria-controls="menu-list-:r1:"
+            aria-expanded="false"
+            aria-haspopup="menu"
+            class="chakra-button chakra-menu__menu-button css-i857na"
+            id="menu-button-:r1:"
+            type="button"
+          >
+            <span
+              class="css-xl71ch"
+            >
+              <div
+                class="chakra-skeleton__group css-0"
+                data-testid="user-email"
+              >
+                <div
+                  class="chakra-skeleton css-cdkrf0"
+                >
+                  test@email.com
+                </div>
+              </div>
+            </span>
+            <span
+              class="chakra-button__icon css-1hzyiq5"
+            >
+              <svg
+                aria-hidden="true"
+                class="chakra-icon css-onkibi"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M21,5H3C2.621,5,2.275,5.214,2.105,5.553C1.937,5.892,1.973,6.297,2.2,6.6l9,12 c0.188,0.252,0.485,0.4,0.8,0.4s0.611-0.148,0.8-0.4l9-12c0.228-0.303,0.264-0.708,0.095-1.047C21.725,5.214,21.379,5,21,5z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+          </button>
+          <div
+            class="css-r6z5ec"
+            style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+          >
+            <div
+              aria-orientation="vertical"
+              class="chakra-menu__menu-list css-1kfu8nn"
+              id="menu-list-:r1:"
+              role="menu"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              tabindex="-1"
+            >
+              <button
+                class="chakra-menu__menuitem css-18esm8n"
+                data-index="0"
+                data-testid="user-configuration"
+                id="menu-list-:r1:-menuitem-:r2:"
+                role="menuitem"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="chakra-menu__icon-wrapper css-15v20fh"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="chakra-icon chakra-menu__icon css-onkibi"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+                <span
+                  style="pointer-events: none; flex: 1;"
+                >
+                  Configuration
+                </span>
+              </button>
+              <hr
+                aria-orientation="horizontal"
+                class="chakra-menu__divider css-12vdn2q"
+              />
+              <button
+                class="chakra-menu__menuitem css-1vkgvb0"
+                data-index="1"
+                id="menu-list-:r1:-menuitem-:r3:"
+                role="menuitem"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  data-testid="logoutButton"
+                >
+                  test
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span
+        hidden=""
+        id="__chakra_env"
+      />
+    </div>
+    <div
+      class="chakra-portal"
+    >
+      <ul
+        aria-live="polite"
+        id="chakra-toast-manager-top"
+        role="region"
+        style="position: fixed; z-index: 5500; pointer-events: none; display: flex; flex-direction: column; margin: 0px auto;"
+      />
+      <ul
+        aria-live="polite"
+        id="chakra-toast-manager-top-left"
+        role="region"
+        style="position: fixed; z-index: 5500; pointer-events: none; display: flex; flex-direction: column;"
+      />
+      <ul
+        aria-live="polite"
+        id="chakra-toast-manager-top-right"
+        role="region"
+        style="position: fixed; z-index: 5500; pointer-events: none; display: flex; flex-direction: column;"
+      />
+      <ul
+        aria-live="polite"
+        id="chakra-toast-manager-bottom-left"
+        role="region"
+        style="position: fixed; z-index: 5500; pointer-events: none; display: flex; flex-direction: column;"
+      />
+      <ul
+        aria-live="polite"
+        id="chakra-toast-manager-bottom"
+        role="region"
+        style="position: fixed; z-index: 5500; pointer-events: none; display: flex; flex-direction: column; margin: 0px auto;"
+      />
+      <ul
+        aria-live="polite"
+        id="chakra-toast-manager-bottom-right"
+        role="region"
+        style="position: fixed; z-index: 5500; pointer-events: none; display: flex; flex-direction: column;"
+      />
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="chakra-stack css-84zodg"
+    >
+      <div
+        class="chakra-skeleton css-dfic0d"
+      >
+        <span
+          class="chakra-avatar css-170e8sn"
+          data-testid="user-avatar"
+        >
+          <div
+            aria-label="bcariaga"
+            class="chakra-avatar__initials css-1pd2iu3"
+            role="img"
+          >
+            b
+          </div>
+        </span>
+      </div>
+      <div
+        class="css-0"
+      >
+        <button
+          aria-controls="menu-list-:r1:"
+          aria-expanded="false"
+          aria-haspopup="menu"
+          class="chakra-button chakra-menu__menu-button css-i857na"
+          id="menu-button-:r1:"
+          type="button"
+        >
+          <span
+            class="css-xl71ch"
+          >
+            <div
+              class="chakra-skeleton__group css-0"
+              data-testid="user-email"
+            >
+              <div
+                class="chakra-skeleton css-cdkrf0"
+              >
+                test@email.com
+              </div>
+            </div>
+          </span>
+          <span
+            class="chakra-button__icon css-1hzyiq5"
+          >
+            <svg
+              aria-hidden="true"
+              class="chakra-icon css-onkibi"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M21,5H3C2.621,5,2.275,5.214,2.105,5.553C1.937,5.892,1.973,6.297,2.2,6.6l9,12 c0.188,0.252,0.485,0.4,0.8,0.4s0.611-0.148,0.8-0.4l9-12c0.228-0.303,0.264-0.708,0.095-1.047C21.725,5.214,21.379,5,21,5z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+        </button>
+        <div
+          class="css-r6z5ec"
+          style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+        >
+          <div
+            aria-orientation="vertical"
+            class="chakra-menu__menu-list css-1kfu8nn"
+            id="menu-list-:r1:"
+            role="menu"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            tabindex="-1"
+          >
+            <button
+              class="chakra-menu__menuitem css-18esm8n"
+              data-index="0"
+              data-testid="user-configuration"
+              id="menu-list-:r1:-menuitem-:r2:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="chakra-menu__icon-wrapper css-15v20fh"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="chakra-icon chakra-menu__icon css-onkibi"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </span>
+              <span
+                style="pointer-events: none; flex: 1;"
+              >
+                Configuration
+              </span>
+            </button>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-menu__divider css-12vdn2q"
+            />
+            <button
+              class="chakra-menu__menuitem css-1vkgvb0"
+              data-index="1"
+              id="menu-list-:r1:-menuitem-:r3:"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                data-testid="logoutButton"
+              >
+                test
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span
+      hidden=""
+      id="__chakra_env"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

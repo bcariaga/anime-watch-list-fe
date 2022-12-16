@@ -1,14 +1,13 @@
 import { Box, Heading } from '@chakra-ui/react';
 import React from 'react';
 
-
-const Home = () => (
+const Logout = () => (
     <Box>
         <Heading noOfLines={1}>
-            Welcome to Anime List Watch
+            Logout
         </Heading>
     </Box>
 );
 
 
-export default Home;
+export default Logout;
